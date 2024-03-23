@@ -24,7 +24,7 @@ This script checks log files for Normal Termination occurrences and identifies f
 
 ### 5. `4-extract-coordinates.py`
 
-This script extracts the coordinates of the last optimized geometry found under "Standard Orientation" in Gaussian log files. It accounts for differences in log files based on the use of the `nosym` keyword in the `.com` file, which affects the appearance of optimized coordinates under "Standard Orientation" or "Input Orientation".
+Extracts coordinates of the last optimized geometry found under "Standard Orientation". Note that Gaussian log files differ based on the use of the 'nosym' keyword in the .com file. When symmetry is off, the optimized coordinates appear under "Standard Orientation". Conversely, with symmetry on, optimized coordinates are listed under "Input Orientation". Turning off symmetry allows the molecule more flexibility to achieve the lowest energy structure.
 
 ## Getting Started
 
