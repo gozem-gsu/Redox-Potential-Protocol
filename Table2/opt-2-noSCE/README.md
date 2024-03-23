@@ -59,14 +59,6 @@ Computes the redox potential for the second reduction process (Q.-/Q=).
 
 Displays results in a tabular format, aesthetically presenting the final results.
 
-## Getting Started
-
-To utilize these scripts:
-
-1. Ensure that the `xyzs` folder contains the optimized coordinates from the Opt-1 folder.
-2. Execute the scripts in the order listed above, starting with `1-opt-2.sh`.
-3. Monitor the output and log files for any errors or convergence issues, and make adjustments as necessary based on the guidelines provided.
-
 ## Contributions
 
 Contributions and improvements to these scripts are welcome. Please feel free to submit pull requests or open issues with suggestions for enhancements.
