@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains an automated workflow designed for the calculation of redox potentials in aprotic solvents for a dataset of 11 parent quinones and their 316 derivatives. The workflow encompasses all the steps involved in the calculation process, starting from molecule retrieval to the final computation of redox potentials.
+This repository contains an automated workflow designed for the calculation of redox potentials in aprotic solvents for a dataset of 345 quinone derivatives. The workflow encompasses all the steps involved in the calculation process, starting from molecule retrieval to the final computation of redox potentials.
 
 ## Author
 
