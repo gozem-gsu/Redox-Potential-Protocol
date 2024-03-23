@@ -24,7 +24,7 @@ This script is crucial for identifying molecules containing iodine. Since the 6-
 
 ### Step 3: Optimization and Calculation
 
-The remaining workflow scripts are located within the `opt-1` and `opt-2` directories. Each script is accompanied by a detailed README file that provides a thorough description of the script's functionality and purpose.
+The remaining workflow scripts are located within the `opt-1` and `opt-2` directories. Each script is accompanied by a detailed README file that provides a thorough description of the script's functionality and purpose. The README is present in Table2 as the scripts are repetitive for all other Tables we have.
 
 ## Getting Started
 
