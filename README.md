@@ -1,0 +1,8 @@
+# Calculation of Redox Potential in Aprotic Solvent for 11 Parent Quinones and their 316 Derivatives by creating an automated workflow that encompasses all the steps involved in calculation.
+## Author: Sarah El Hajj
+ 
+This process initiates with '1-retrieve-molecules.py', utilizing the cirpy Python library. It extracts molecule coordinates based on the provided CAS numbers, retrieved from a 'file.csv'. Cirpy generates SMILES codes from these CAS numbers. Subsequently, the script employs the rdkit Python library to retrieve coordinates from these SMILES codes. However, it's important to note that while some molecules lack a CAS number, others, despite having one, rdkit may fail to determine their coordinates. In such cases, manual addition of coordinates is done. This script aims to establish a directory named 'xyzs' and organize its contents in an indexed sequence, mirroring the order present in 'file.csv'. This organization facilitates mapping each coordinate to its corresponding molecule, streamlining the coordination between the two datasets.
+
+The 'check_iodine.py' script plays a pivotal role in identifying molecules containing iodine. Since iodine is not supported by the 6-311++G(d,p) basis set—utilized for all other molecules—we employed a mixed basis set approach. This involved the 'gen' keyword within the roote section, delineating a combination of 6-311++G(d,p) basis sets for elements like H, C, O, N, and the def2TZVP basis set exclusively for iodine.
+
+The remaining workflow scripts reside within 'opt-1' and 'opt-2' directories, accompanied by a comprehensive README file offering detailed descriptions for each script's functionality and purpose.
