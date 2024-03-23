@@ -11,7 +11,7 @@ This summary outlines the stepwise progression of scripts and procedures involve
 
 4. **2.2-get-coordinates-by-scaling.py**: Prepares new coordinates integrating a 0.02 scaling factor from log files with negative frequencies, ensuring it's added to the previously extracted optimized coordinates.
 
-5. **2.3-rerun-opt-negative-frequencies.py**: Edits the `com` file, replacing old coordinates that allowed negative frequencies with the newly prepared ones, initiating a new optimization.
+5. **2.3-rerun-opt-negative-frequencies.py**: Edits the `.com` file, replacing old coordinates that allowed negative frequencies with the newly prepared ones, initiating a new optimization.
 
 6. **2.1-check-negative-frequencies.py**: Re-evaluates negative frequencies post-optimization to confirm if geometry distortion eliminated them.
 
