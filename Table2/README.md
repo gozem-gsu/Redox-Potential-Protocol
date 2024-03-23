@@ -12,7 +12,7 @@ Executing the first round of optimization using coordinates from the xyzs folder
 
 ### 2. `3-rerun-failed-gaussian-jobs.py`
 
-This script ensures that all Gaussian jobs reach Normal Termination. It includes the addition of the `SCF=YQC` keyword to aid in resolving SCF convergence issues, particularly encountered with anions.
+Ensures convergence success by aiming for Normal Termination in all log files. This script includes the addition of the "SCF=YQC" keyword to resolve convergence failures. This is primarily used when SCF convergence happens immediately in the first step and a change in the SCF algorithm helps reset the calculation. It was mainly encountered with anions.
 
 ### 3. `3.1-check-negative-frequencies.py`
 
