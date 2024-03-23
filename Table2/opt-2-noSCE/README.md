@@ -3,7 +3,7 @@
 
 ## Overview
 
-This folder contains scripts for the second round of gas phase optimizations using optimized coordinates from the Opt-1 folder, followed by the calculation of solvation free energies using the continuum solvation model 'PCM'. The workflow is designed to calculate redox potentials for two pairs of reductions: Quinone (Q) to Semiquinone (Q.-) and Semiquinone (Q.-) to Hydroquinone (Q=).
+This folder contains scripts for the second round of gas phase optimizations using optimized coordinates from the Opt-1 folder, followed by the calculation of solvation free energies using the continuum solvation model 'PCM'. The workflow is designed to calculate redox potentials for two pairs of reductions: Quinone (Q) to Semiquinone (Q.-) and Semiquinone (Q.-) to dianion (Q=).
 
 ## Script Descriptions
 
