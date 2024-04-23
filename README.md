@@ -28,7 +28,7 @@ The remaining workflow scripts are located within the `opt-1` and `opt-2` direct
 
 ## Getting Started
 
-To begin using this workflow, clone the repository and navigate to the root directory. Ensure that all required Python libraries (`cirpy`, `rdkit`, periodictable, etc.) are installed. Follow the steps outlined in the README files within each directory to execute the workflow successfully.
+To begin using this workflow, clone the repository and navigate to the root directory. Ensure that all required Python libraries (`cirpy`, `rdkit`, `periodictable`, etc.) are installed. Follow the steps outlined in the README files within each directory to execute the workflow successfully.
 
 ## Contributions
 
