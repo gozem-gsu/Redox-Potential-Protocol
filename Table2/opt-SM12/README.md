@@ -19,7 +19,7 @@ This summary outlines the stepwise progression of scripts and procedures involve
 
 8. **4-solvation-energies-SM12.sh**: Commences solvation utilizing the SM12.
    
-9.
+9. **check-SM12-termination.py**: Checks for successful SM12 termination among the files.
 
 10. **6-extract-values.py**: Generates a values folder storing anion radical and neutral values for each molecule and SCF, Gibbs Corr, and SCF solv values for each entity.
 
