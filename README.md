@@ -20,7 +20,7 @@ The script creates a directory named `xyzs` and organizes the contents in an ind
 
 ### Step 2: Iodine Check (`check_iodine.py`)
 
-This script is crucial for identifying molecules containing iodine. Since the 6-311++G(d,p) basis set (used for all other molecules) does not support iodine, a mixed basis set approach is employed. The `gen` keyword within the route section indicates the use of a combination of 6-311++G(d,p) basis sets for elements like H, C, O, N, and the def2TZVP basis set exclusively for iodine.
+This script is used to identify molecules containing iodine. Since the 6-311++G(d,p) basis set (used for all other molecules) does not support iodine, a mixed basis set approach is employed. The `gen` keyword within the route section indicates the use of a combination of 6-311++G(d,p) basis sets for elements like H, C, O, N, and the def2TZVP basis set exclusively for iodine.
 
 ### Step 3: Optimization and Calculation
 
