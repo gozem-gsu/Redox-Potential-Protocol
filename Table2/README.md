@@ -24,7 +24,7 @@ This script checks log files for Normal Termination occurrences and identifies f
 
 ### 5. `4-extract-coordinates.py`
 
-Extracts coordinates of the last optimized geometry found under "Standard Orientation". Note that Gaussian log files differ based on the use of the 'nosym' keyword in the .com file. When symmetry is off, the optimized coordinates appear under "Standard Orientation". Conversely, with symmetry on, optimized coordinates are listed under "Input Orientation". Turning off symmetry allows the molecule more flexibility to achieve the lowest energy structure.
+Extracts coordinates of the last optimized geometry found under "Input Orientation". Note that Gaussian log files differ based on the use of the 'nosym' keyword in the .com file. When symmetry is off, the optimized coordinates appear under "Input Orientation". Conversely, with symmetry on, optimized coordinates are listed under "Standard Orientation". Turning off symmetry allows the molecule more flexibility to achieve the lowest energy structure. (For example, if you did not turn off symmetry and you provide a structure with Cs symmetry but real minimum is C2V, the algorithm will optimize for you Cs not C2V because molecule does not have flexibility to move).
 
 ## Getting Started
 
