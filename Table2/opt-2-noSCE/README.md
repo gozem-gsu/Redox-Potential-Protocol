@@ -49,7 +49,7 @@ Generates a `values` folder storing anion, radical, and neutral values for each 
 
 ### 11. `7-prefinal-calculations.py`
 
-Computes the redox potential for the first reduction process (Q/Q.-). The reported experimental redox potentials are standard and not absolute potentials, which means they are relative to the standard calomel electrode (SCE) with an absolute potential of 4.67. The values are stored in a file named `final_results.csv`.
+Computes the redox potential for the first reduction process (Q/Q.-). The reported experimental redox potentials are standard and not absolute potentials, which means they are relative to the standard calomel electrode (SCE). The values are stored in a file named `final_results.csv`.
 
 ### 12. `8-final-calculations.py`
 

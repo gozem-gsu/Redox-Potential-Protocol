@@ -6,7 +6,7 @@ This repository contains an automated workflow designed for the calculation of r
 
 ## Authors
 
-Samer Gozem Ph.D, Sarah El Hajj
+Sarah El Hajj, Samer Gozem
 
 ## Workflow Description
 
@@ -20,11 +20,11 @@ The script creates a directory named `xyzs` and organizes the contents in an ind
 
 ### Step 2: Iodine Check (`check_iodine.py`)
 
-This script is crucial for identifying molecules containing iodine. Since the 6-311++G(d,p) basis set (used for all other molecules) does not support iodine, a mixed basis set approach is employed. The `gen` keyword within the route section indicates the use of a combination of 6-311++G(d,p) basis sets for elements like H, C, O, N, and the def2TZVP basis set exclusively for iodine.
+This script is used to identify molecules containing iodine. Since the 6-311++G(d,p) basis set (used for all other molecules) does not support iodine, a mixed basis set approach is employed. The `gen` keyword within the route section indicates the use of a combination of 6-311++G(d,p) basis sets for elements like H, C, O, N, and the def2TZVP basis set exclusively for iodine.
 
 ### Step 3: Optimization and Calculation
 
-The remaining workflow scripts are located within the `opt-1` and `opt-2` directories. Each script is accompanied by a detailed README file that provides a thorough description of the script's functionality and purpose. The README is present in Table2 as the scripts are repetitive for all other Tables we have.
+The remaining workflow scripts are located under Table 2 and within `opt-2` directory of that Table. The same scripts have been applied on other Tables with modifying the range of ID numbers. Each script is accompanied by a detailed README file that provides a thorough description of the script's functionality and purpose. The README is present in Table2 as the scripts are repetitive for all other Tables we have.
 
 ## Getting Started
 

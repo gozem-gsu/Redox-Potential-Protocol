@@ -17,9 +17,9 @@ This summary outlines the stepwise progression of scripts and procedures involve
 
 7. **3-extract-final-coordinates-opt.py**: Gathers the final set of coordinates once all logs display normal termination and positive frequencies.
 
-8. **4-solvation-energies-PCM.sh**: Commences solvation utilizing the PCM (Polarizable Continuum Model).
-
-9. **5-rerun-failed-PCM-jobs.py**: Reruns failed PCM jobs as a double-check method, ensuring successful execution.
+8. **4-solvation-energies-SM12.sh**: Commences solvation utilizing the SM12.
+   
+9. **check-SM12-termination.py**: Checks for successful SM12 termination among the files.
 
 10. **6-extract-values.py**: Generates a values folder storing anion radical and neutral values for each molecule and SCF, Gibbs Corr, and SCF solv values for each entity.
 
