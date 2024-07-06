@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2024] [Sarah El Hajj, Samer Gozem]
+Copyright (c) [2024] [Sarah Elhajj, Samer Gozem]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
