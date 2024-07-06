@@ -6,7 +6,7 @@ This repository contains an automated workflow designed for the calculation of r
 
 ## Authors
 
-Sarah El Hajj, Samer Gozem
+Sarah Elhajj, Samer Gozem
 
 ## Workflow Description
 
